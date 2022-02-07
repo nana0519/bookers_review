@@ -11,12 +11,17 @@ import "jquery"
 import "popper.js"
 import "bootstrap"
 import '@fortawesome/fontawesome-free/js/all';
-import "../stylesheets/application" 
+import "../stylesheets/application"
 import "jquery";
 import "popper.js";
 import "bootstrap";
-import "../stylesheets/application" 
+import "../stylesheets/application"
 import '@fortawesome/fontawesome-free/js/all'
+
+var jQuery = require('jquery')
+global.$ = global.jQuery = jQuery;
+window.$ = window.jQuery = jQuery;
+
 
 
 Rails.start()
